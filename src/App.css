@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100dvh;
+}
+
+.border-1{
+  border: 0;
+  background: #dee1e2;
+  padding: 0;
+}
+.input-2{
+  width: 480px;
+}
+.input-2:focus{
+  outline: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  background-color: #282c34;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.input-1{
+  
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 500px;
+  
+}
+
+.input-1:hover {
+  border-color: #ccc;
+}
+.input-1:focus{
+  border-color: #9147ff;
+  background: #fff;
+}
+
+.input-3{
+  
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  margin: 5px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #99def5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 500px;
+  
+}
+
+.cont{
+  background-color: #99def5;
+}
+.btn-div{
+  height: fit-content;
+  background-color: #282c34;
+  padding : 10px;
+}
+.btn{
+  
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  height: 38px;
+  padding: 8px 24px;
+  border-radius: 50px;
+  background-image: linear-gradient(180deg,#7c8aff,#3c4fe0);
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+  transition: all .2s ease-out;
+ 
+  
+}
+
+.btn:hover{
+  box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+}
